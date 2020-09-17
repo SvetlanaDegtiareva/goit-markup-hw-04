@@ -30,6 +30,7 @@ padding right: 20px;
 padding top: 40px;
 padding bottom: 40px;
 }
+
 .logo{
  font-size: 26px; 
 font-weight: bold;
@@ -63,6 +64,27 @@ color: #000000;
 .top-containerindex-link1 a {
 color: grey;
 }
+
+/*
+
+.box::before {
+  content: 'Это текст в ::before';
+  font-size: 40px;
+  color: orange;
+}
+
+.box::after {
+  content: 'Это текст в ::after';
+  font-size: 30px;
+  color: teal;
+}
+
+.box:hover::after {
+  color: pink;
+}
+*/
+
+
 /* Эффективные решения для вашего бизнеса */
 .bigmotto {
 height: 600px;
@@ -74,6 +96,7 @@ margin: 10px;
 text-decoration: none;
 color: #FFFFFF;
 background: #2F303A;
+background-image: url(../pictures/Img_main_index\ \(1\).jpg);
 }
 
 .bigmottolink1  {
@@ -119,6 +142,50 @@ justify-content: space-between;
 align-items: center;
 padding-left: 215px;
 padding-right: 215px;
+}
+
+.more-about-list1 ::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: aqua;
+  background-image: url(../pictures/about1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.more-about-list2 ::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: aqua;
+  background-image: url(../pictures/about2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.more-about-list3 ::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: aqua;
+  background-image: url(../pictures/about3.1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.more-about-list4 ::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: aqua;
+  background-image: url(../pictures/about4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .more-about-discription {
