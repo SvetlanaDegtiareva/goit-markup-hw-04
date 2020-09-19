@@ -40,7 +40,7 @@ font-style: normal;
 .logo-header {
 color: #2196f3
 }
-
+ 
 .top-containerindex-link {
 /*display: inline-block;
 padding: 12px 12px 12px 12px;
@@ -48,8 +48,6 @@ margin: 20px;*/
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding-left: 215px;
-padding-right: 215px;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -102,6 +100,12 @@ background-image: url(../pictures/Img_main_index\ \(1\).jpg);
 background-repeat: no-repeat;
 }
 
+.conteiner {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+text-align: center;
+}
 .bigmottolink1  {
 color: white;
 width: 1200px;
@@ -143,8 +147,7 @@ border-radius: 4px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding-left: 215px;
-padding-right: 215px;
+
 }
 
 .more-about-list1::before {
@@ -222,8 +225,6 @@ height: 648px;
 top: 1449px;}
 
 .our-team-name {
-padding-top: 95px;
-padding-bottom: 50px;
 font-weight: bold;
 font-size: 36px;
 line-height: 42px;
@@ -252,7 +253,6 @@ top: 2097px;
 left: 0px;
 padding-top: 60px;
 padding-bottom: 20px;
-padding-left: 215px;
 font-weight: bold;
 font-family: raleway;
 font-style: normal;
