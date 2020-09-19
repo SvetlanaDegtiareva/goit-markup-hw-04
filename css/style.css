@@ -58,14 +58,25 @@ letter-spacing: 0.02em;
 .top-containerindex-link :active {
 color: #2196f3;
 }
-
+.top-containerindex-link-ul
+{
+  padding: 0px;
+   list-style: none;
+  display: flex;
+}
 .top-containerindex-link a {
 color: #000000;
 }
-.top-containerindex-link
-{
+.top-containerindex-link {
   padding: 0px;
+  }
+.top-containerindex-link1 {
+padding: 0px;
+   list-style: none;
+  display: flex;
 }
+
+
 .top-containerindex-link1 a {
 color: grey;
 }
@@ -148,10 +159,11 @@ margin: auto;
 
 
 .more-about-list {
-display: flex;
 justify-content: space-between;
 align-items: center;
   padding: 0px;
+   list-style: none;
+  display: flex;
 }
 
 .more-about-list1::before {
@@ -205,18 +217,19 @@ line-height: 24px;
 
 
 li { 
-vertical-align: top;
-margin: 15px;}
+vertical-align: top;}
 
-ul {
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
 
   
 .What-we-do {
 text-align: center;
+}
+
+.What-we-do-name-ul 
+{
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
 
 .What-we-do-name {
@@ -247,6 +260,8 @@ height: 428px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;*/
   padding: 0px;
+  list-style: none;
+  display: flex;
 }
 
 .our-team-name-discription {
@@ -269,13 +284,14 @@ font-style: normal;
 
 .footer-adress{
   font-style: normal;
- display: flex;
   flex-direction: column;
   margin-left: -50px;
   line-height: 5px;
-    padding: 0px;
-  }
-
+  padding: 0px;
+  list-style: none;
+  display: flex;
+}
+  
 .footer a{
 text-decoration: none;
 color: white;
@@ -305,6 +321,7 @@ flex-direction: row;
 justify-content: center;
 text-align: center;
   padding: 0px;
+  list-style: none;
 }
 
 .links-about a {
@@ -330,6 +347,7 @@ flex-wrap: wrap;
 margin-top: 0px;
 width: calc ((100%-2*30px)/3);
   padding: 0px;
+  list-style: none;
 }
 
 .details1 li {
