@@ -95,13 +95,13 @@ color: grey;
 height: 600px;
 left: 0px;
 top: 80px;
-padding: 150px 152px;
-margin: 10px;
 text-decoration: none;
 color: #FFFFFF;
 background: rgba(47, 48, 58, 0.4);
 background-image: url(../pictures/Img_main_index\ \(1\).jpg);
 background-repeat: no-repeat;
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .conteiner {
@@ -126,11 +126,8 @@ text-align: center;
 
 .bigmottolink2 {
 text-decoration: none;
-position: absolute;
 width: 236px;
 height: 55px;
-left: 650px;
-top: 480px;
 font-weight: bold;
 font-size: 14px;
 line-height: 50px;
@@ -141,6 +138,8 @@ color: #FFFFFF;
 background: #2196f3;
 border: 2px solid blue;
 border-radius: 4px;
+display: block;
+margin: auto;
 }
 
 .more-about {
