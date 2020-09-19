@@ -209,6 +209,11 @@ li {
 vertical-align: top;
 margin: 15px;}
 
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
 
   
 .What-we-do {
