@@ -244,7 +244,9 @@ line-height: 42px;
 
 
 .our-team {
-background: #F5F4FA;}
+background: #F5F4FA;
+padding-top: 94px;
+padding-bottom: 94px;}
 
 .our-team-name {
 font-weight: bold;
