@@ -232,6 +232,7 @@ text-align: center;
   padding: 0;
   list-style: none;
   display: flex;
+  justify-content: space-between
 }
 
 .What-we-do-name {
@@ -243,16 +244,13 @@ line-height: 42px;
 
 
 .our-team {
-background: #F5F4FA;
-height: 648px;
-top: 1449px;}
+background: #F5F4FA;}
 
 .our-team-name {
 font-weight: bold;
 font-size: 36px;
 line-height: 42px;
-text-align: center;
-}
+text-align: center;}
 
 .our-team-name-table {
 text-align: center;
