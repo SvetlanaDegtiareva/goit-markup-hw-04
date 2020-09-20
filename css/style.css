@@ -29,7 +29,7 @@ letter-spacing: 0.02em;
 .main {
   padding-top: 24px;
   padding-bottom: 25px;
-}
+  }
 .logo{
  font-size: 26px; 
 font-weight: bold;
@@ -51,7 +51,10 @@ align-items: center;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
-
+border: 1px solid #ECECEC;
+border-top: white;
+border-right:  white;
+border-left: white;
 }
 
 .top-containerindex-link :hover,
@@ -65,6 +68,7 @@ padding: 0px;
 list-style: none;
 display: flex;
 justify-content: space-between
+
 }
 .top-containerindex-link-ul li{
   margin-left: 50px;
@@ -165,7 +169,7 @@ margin: auto;
 }
 
 .more-about {
-padding-top: 119px;
+padding-top: 94px;
 padding-bottom: 94px;
 }
 
@@ -342,8 +346,8 @@ letter-spacing: 0.02em;
 }
 
 .about {
-  padding-top:100px ;
-  padding-bottom: 20px;
+  padding-top:180px ;
+  padding-bottom: 50px;
 
 }
 
@@ -429,6 +433,7 @@ height: 404px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
+margin-bottom: 30px;
 }
 
 .details1-item {
