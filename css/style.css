@@ -264,6 +264,15 @@ border-radius: 0px 0px 4px 4px;*/
   display: flex;
 }
 
+.our-team-name-table li {
+width: 270px;
+height: 428px;
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
 .our-team-name-discription {
 color: #757575;
 line-height: 19px;
@@ -336,8 +345,10 @@ height: 128px;
 border: 2px solid white;
 width: auto;
 }
+
 .details {
-  background: EEEEEE;
+background: EEEEEE;
+justify-content: space-between;
 }
 
 .details1 {
@@ -346,12 +357,19 @@ justify-content: center;
 flex-wrap: wrap;
 margin-top: 0px;
 width: calc ((100%-2*30px)/3);
-  padding: 0px;
-  list-style: none;
+padding: 0px;
+list-style: none;
+
 }
 
 .details1 li {
 width: calc ((100%-2*30px)/3);
+width: 370px;
+height: 404px;
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
 }
 
 .details1-item {
