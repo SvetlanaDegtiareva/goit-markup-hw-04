@@ -24,12 +24,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-padding left: 20px;
-padding right: 20px;
-padding top: 40px;
-padding bottom: 40px;
 }
 
+.main {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .logo{
  font-size: 26px; 
 font-weight: bold;
@@ -51,6 +51,7 @@ align-items: center;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
+
 }
 
 .top-containerindex-link :hover,
@@ -65,6 +66,10 @@ list-style: none;
 display: flex;
 justify-content: space-between
 }
+.top-containerindex-link-ul li{
+  margin-left: 50px;
+}
+
 .top-containerindex-link a {
 color: #000000;
 }
@@ -76,6 +81,10 @@ padding: 0px;
    list-style: none;
   display: flex;
   justify-content: space-between
+}
+
+.top-containerindex-link1 li {
+margin-left: 30px;
 }
 
 
@@ -220,8 +229,7 @@ line-height: 24px;
 
 
 li { 
-vertical-align: top;
-margin-left: 15px;}
+vertical-align: top;}
 
 
   
@@ -309,6 +317,10 @@ font-style: normal;
   font-family: 'Roboto', sans-serif;
 }
   
+.footer-adress li{
+margin-bottom: 9px;
+}
+
 .footer a{
 text-decoration: none;
 color: white;
@@ -360,6 +372,7 @@ line-height: 26px;
 /* identical to box height, or 162% */
 text-align: center;
 letter-spacing: 0.03em;
+margin-right: 8px;
 }
 
 .links-about li :hover,
@@ -367,7 +380,7 @@ letter-spacing: 0.03em;
 .links-about li  :active {
 color: white;
 width: 29px;
-height: 26px;
+height: 38px;
 left: 517px;
 top: 180px;
 background: #2196F3;
@@ -394,7 +407,7 @@ width: auto;
 }
 
 .details {
-background: EEEEEE;
+
 padding-bottom: 94px ;
 padding-top: 50px;
 }
