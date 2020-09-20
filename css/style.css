@@ -220,7 +220,8 @@ line-height: 24px;
 
 
 li { 
-vertical-align: top;}
+vertical-align: top;
+margin-left: 15px;}
 
 
   
@@ -229,8 +230,7 @@ text-align: center;
 padding-bottom: 50px;
 }
 
-.What-we-do-name-ul 
-{
+.What-we-do-name-ul {
   padding: 0;
   list-style: none;
   display: flex;
@@ -302,11 +302,11 @@ font-style: normal;
 .footer-adress{
   font-style: normal;
   flex-direction: column;
-  line-height: 5px;
-  padding: 0px;
+    padding: 0px;
   list-style: none;
   display: flex;
   justify-content: space-between
+  font-family: 'Roboto', sans-serif;
 }
   
 .footer a{
@@ -332,6 +332,7 @@ letter-spacing: 0.02em;
 .about {
   padding-top:100px ;
   padding-bottom: 20px;
+
 }
 
 .links-about {
