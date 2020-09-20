@@ -29,6 +29,10 @@ letter-spacing: 0.02em;
 .main {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ECECEC;
+border-top: white;
+border-right:  white;
+border-left: white;
   }
 .logo{
  font-size: 26px; 
@@ -51,10 +55,7 @@ align-items: center;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
-border: 1px solid #ECECEC;
-border-top: white;
-border-right:  white;
-border-left: white;
+
 }
 
 .top-containerindex-link :hover,
@@ -346,7 +347,7 @@ letter-spacing: 0.02em;
 }
 
 .about {
-  padding-top:180px ;
+  padding-top:94px ;
   padding-bottom: 50px;
 
 }
@@ -436,8 +437,13 @@ box-sizing: border-box;
 margin-bottom: 30px;
 }
 
+.details1 a {
+padding-right: 20px;
+}
+
 .details1-item {
 flex-basis: calc ((100%-2*30px)/3);
+
 }
 
 .details1-item-category {
@@ -456,7 +462,8 @@ color: #757575;
 text-decoration: none;
 font-size: 18px;
 font-weight: bold;
-color: black;} 
+color: black;
+padding-right: 20px;} 
 
 .details1-item-name a {
 text-decoration: none;
