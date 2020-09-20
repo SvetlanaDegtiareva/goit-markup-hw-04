@@ -156,7 +156,8 @@ margin: auto;
 }
 
 .more-about {
-
+padding-top: 119px;
+padding-bottom: 94px;
 }
 
 
@@ -225,6 +226,7 @@ vertical-align: top;}
   
 .What-we-do {
 text-align: center;
+padding-bottom: 50px;
 }
 
 .What-we-do-name-ul 
@@ -281,11 +283,15 @@ line-height: 19px;
 font-size: 16px;
 }
 
+.regular-customers{
+  padding-top: 94px;
+  padding-bottom: 234px ;
+  background-color: white;
+}
+
 .footer {
  background: #2F303A;
 height: 252px;
-top: 2097px;
-left: 0px;
 padding-top: 60px;
 padding-bottom: 20px;
 font-weight: bold;
@@ -324,6 +330,8 @@ letter-spacing: 0.02em;
 }
 
 .about {
+  padding-top:100px ;
+  padding-bottom: 20px;
 }
 
 .links-about {
@@ -341,7 +349,7 @@ background: #F5F4FA;
 border-radius: 4px;
 color: black;
 width: 29px;
-height: 30px;
+height: 38px;
 left: 517px;
 top: 180px;
 font-style: normal;
@@ -386,6 +394,8 @@ width: auto;
 
 .details {
 background: EEEEEE;
+padding-bottom: 94px ;
+padding-top: 50px;
 }
 
 .details1 {
