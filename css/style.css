@@ -349,7 +349,6 @@ letter-spacing: 0.02em;
 .about {
   padding-top:94px ;
   padding-bottom: 50px;
-
 }
 
 .links-about {
@@ -359,15 +358,22 @@ justify-content: center;
 text-align: center;
 padding: 0px;
 list-style: none;
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0.03em;
 }
+
+.links-about button {
+padding-right: 8px;
+padding-left: 8px;
+padding-bottom: 5px;
+padding-top: 8px;}
 
 .links-about li {
 height: 26px;
 background: #F5F4FA;
-border-radius: 4px;
 color: black;
-left: 517px;
-top: 180px;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -375,36 +381,16 @@ line-height: 26px;
 /* identical to box height, or 162% */
 text-align: center;
 letter-spacing: 0.03em;
-margin-right: 8px;
 }
 
 .links-about li :hover,
 .links-about li :focus,
 .links-about li  :active {
 color: white;
-left: 517px;
-top: 180px;
 background: #2196F3;
-/* shadow-middle */
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
 }
 
-.links-about  {
-font-weight: 500;
-font-size: 16px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-padding-right: 8px;
-}
 
 
 .links-about li {
@@ -447,7 +433,6 @@ flex-basis: calc ((100%-2*30px)/3);
 
 .details1-item-category {
 font-size: 16px;
-
 color: #757575;
 }
 
@@ -459,10 +444,15 @@ color: #757575;
 
 .details1-item-name {
 text-decoration: none;
-font-size: 18px;
-font-weight: bold;
 color: black;} 
 
+.details1-item-name h3 {
+  font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em
+}
 .details1-item-name a {
 text-decoration: none;
 color: black;}
