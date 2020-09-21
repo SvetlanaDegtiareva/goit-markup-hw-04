@@ -401,8 +401,15 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-.links-about a {
-color: black;
+.links-about  {
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+padding-right: 8px;
+height: 30px;
 }
 
 
@@ -448,7 +455,7 @@ flex-basis: calc ((100%-2*30px)/3);
 
 .details1-item-category {
 font-size: 16px;
-line-height: 30px;
+
 color: #757575;
 }
 
