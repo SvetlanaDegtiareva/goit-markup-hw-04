@@ -366,8 +366,6 @@ height: 26px;
 background: #F5F4FA;
 border-radius: 4px;
 color: black;
-width: 29px;
-height: 38px;
 left: 517px;
 top: 180px;
 font-style: normal;
@@ -384,8 +382,6 @@ margin-right: 8px;
 .links-about li :focus,
 .links-about li  :active {
 color: white;
-width: 29px;
-height: 38px;
 left: 517px;
 top: 180px;
 background: #2196F3;
@@ -404,12 +400,11 @@ letter-spacing: 0.03em;
 .links-about  {
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 padding-right: 8px;
-height: 30px;
+
 }
 
 
