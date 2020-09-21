@@ -437,7 +437,7 @@ box-sizing: border-box;
 margin-bottom: 30px;
 }
 
-.details1 a {
+.details1 a,.details1 h3 {
 padding-right: 20px;
 }
 
@@ -462,8 +462,7 @@ color: #757575;
 text-decoration: none;
 font-size: 18px;
 font-weight: bold;
-color: black;
-padding-right: 20px;} 
+color: black;} 
 
 .details1-item-name a {
 text-decoration: none;
