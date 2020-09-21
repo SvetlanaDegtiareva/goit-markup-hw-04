@@ -404,7 +404,6 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 padding-right: 8px;
-
 }
 
 
@@ -414,7 +413,6 @@ width: auto;
 }
 
 .details {
-
 padding-bottom: 94px ;
 padding-top: 50px;
 }
@@ -440,12 +438,11 @@ margin-bottom: 30px;
 }
 
 .details1 a,.details1 h3 {
-padding-right: 20px;
+padding-left: 24px;
 }
 
 .details1-item {
 flex-basis: calc ((100%-2*30px)/3);
-
 }
 
 .details1-item-category {
