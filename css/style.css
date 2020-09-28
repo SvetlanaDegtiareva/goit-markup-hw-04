@@ -73,13 +73,11 @@ color: #2196f3;
   height: 12px;
   cursor: pointer;  }
 
-.icon-telsvg{
-   fill: black
-}
 
-.icon-mail:hover  use
+
+.icon-mail:hover 
 .icon-mail:focus {
-color: red;
+fill: #2196f3
 }
 
 .icon-tel {
@@ -91,7 +89,10 @@ color: red;
   cursor: pointer;
 }
 
-
+.icon-tel:hover
+.icon-tel:focus {
+fill: #2196f3
+}
 
 .top-containerindex-link-ul {
 padding: 0px;
