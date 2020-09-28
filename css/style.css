@@ -64,6 +64,35 @@ letter-spacing: 0.02em;
 color: #2196f3;
 }
 
+.icon-mail {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  width: 16px;
+  height: 12px;
+  cursor: pointer;  }
+
+.icon-telsvg{
+   fill: black
+}
+
+.icon-mail:hover  use
+.icon-mail:focus {
+color: red;
+}
+
+.icon-tel {
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  width: 10px;
+  height: 16px;
+  cursor: pointer;
+}
+
+
+
 .top-containerindex-link-ul {
 padding: 0px;
 list-style: none;
@@ -93,7 +122,7 @@ margin-left: 30px;
 }
 
 
-.top-containerindex-link1 a {
+.top-containerindex-link1 a svg {
 color: grey;
 }
 
