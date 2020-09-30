@@ -74,8 +74,7 @@ color: #2196f3;
   cursor: pointer;  }
 
 
-
-.icon-mail:hover 
+.icon-mail:hover,
 .icon-mail:focus {
 fill: #2196f3
 }
@@ -89,7 +88,7 @@ fill: #2196f3
   cursor: pointer;
 }
 
-.icon-tel:hover
+.icon-tel:hover,
 .icon-tel:focus {
 fill: #2196f3
 }
@@ -324,6 +323,40 @@ border-radius: 0px 0px 4px 4px;
 color: #757575;
 line-height: 19px;
 font-size: 16px;
+padding-bottom: 16px;
+}
+.social-icon-link {
+  width: 44px;
+  height: 44px;
+  margin-left: 32px;
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus
+ {
+  background-color:#2196F3 ;
+   border: 4px;
+  width: 20px;
+  height: 20px;
+}
+.social-icon  {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer; 
+fill: #9fa0a3; }
+
+
+.social-icon:hover 
+.social-icon:focus {
+fill: white
+}
+
+
+
 }
 
 .regular-customers{
