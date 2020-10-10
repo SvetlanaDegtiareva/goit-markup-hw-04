@@ -362,8 +362,8 @@ border-radius: 0px 0px 4px 4px;*/
     fill: #9fa0a3;
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.social-icon-link:hover .social-icon,
+.social-icon-link:focus .social-icon {
     fill: white
 }
 
