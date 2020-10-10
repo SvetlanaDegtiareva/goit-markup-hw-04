@@ -340,11 +340,10 @@ border-radius: 0px 0px 4px 4px;*/
     cursor: pointer;
 }
 
-.social-icon-box a {
-    display: flex;
-}
-
 .social-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 15px;
     border-radius: 50%;
     width: 40px;
